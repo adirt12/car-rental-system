@@ -3,6 +3,7 @@ __pycache__/
 .pytest_cache/
 *.pyc
 cars.db
-app.log
+*.log
 .env
 data/
+*.py[cod]
