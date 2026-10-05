@@ -1,3 +1,20 @@
 2026-10-05 16:11:26,049 INFO Health check
 2026-10-05 16:12:13,146 INFO Adding car: yaris
 2026-10-05 16:12:44,499 INFO Registering rental for car 2
+2026-10-05 16:17:04,195 INFO Adding car: Toyota Corolla
+2026-10-05 16:17:04,195 INFO HTTP Request: POST http://testserver/cars "HTTP/1.1 201 Created"
+2026-10-05 16:17:04,198 INFO HTTP Request: GET http://testserver/cars "HTTP/1.1 200 OK"
+2026-10-05 16:17:04,199 INFO Adding car: Honda Civic
+2026-10-05 16:17:04,200 INFO HTTP Request: POST http://testserver/cars "HTTP/1.1 201 Created"
+2026-10-05 16:17:04,202 INFO HTTP Request: PATCH http://testserver/cars/4 "HTTP/1.1 200 OK"
+2026-10-05 16:17:04,204 INFO Adding car: Mazda 3
+2026-10-05 16:17:04,204 INFO HTTP Request: POST http://testserver/cars "HTTP/1.1 201 Created"
+2026-10-05 16:17:04,206 INFO Registering rental for car 5
+2026-10-05 16:17:04,207 INFO HTTP Request: POST http://testserver/rentals "HTTP/1.1 201 Created"
+2026-10-05 16:17:04,208 INFO HTTP Request: GET http://testserver/cars/5 "HTTP/1.1 200 OK"
+2026-10-05 16:17:04,209 INFO Adding car: Kia Rio
+2026-10-05 16:17:04,210 INFO HTTP Request: POST http://testserver/cars "HTTP/1.1 201 Created"
+2026-10-05 16:17:04,211 INFO Registering rental for car 6
+2026-10-05 16:17:04,212 INFO HTTP Request: POST http://testserver/rentals "HTTP/1.1 201 Created"
+2026-10-05 16:17:04,214 INFO HTTP Request: POST http://testserver/rentals/4/end "HTTP/1.1 200 OK"
+2026-10-05 16:17:04,215 INFO HTTP Request: GET http://testserver/cars/6 "HTTP/1.1 200 OK"
