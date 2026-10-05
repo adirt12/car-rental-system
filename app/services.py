@@ -4,8 +4,8 @@ from fastapi import HTTPException
 from sqlalchemy.orm import Session
 
 from . import repositories
-
-
+import logging
+logger = logging.getLogger(__name__)
 def add_car(
     db: Session,
     model: str,
@@ -19,6 +19,7 @@ def add_car(
 
     db.commit()
     db.refresh(car)
+    logging.info("Adding car: %s", model)
 
     return car
 
@@ -106,6 +107,11 @@ def register_rental(
 
     db.commit()
     db.refresh(rental)
+
+    logging.info(
+        "Registering rental for car %s",
+        car_id,
+    )
 
     return rental
 
