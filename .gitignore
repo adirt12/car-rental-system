@@ -5,3 +5,4 @@ __pycache__/
 cars.db
 app.log
 .env
+data/
