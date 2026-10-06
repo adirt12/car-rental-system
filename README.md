@@ -422,3 +422,18 @@ Possible future improvements include:
 * Message queue integration
 * More detailed monitoring
 * Additional API endpoints
+
+
+## Screenshots
+
+![](screenshots/img.png)
+
+![](screenshots/img_1.png)
+
+![](screenshots/img_2.png)
+
+![](screenshots/img_3.png)
+
+![](screenshots/img_4.png)
+
+![](screenshots/img_5.png)
